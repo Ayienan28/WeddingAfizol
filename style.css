@@ -72,14 +72,20 @@ p {
 #kad {
         min-height:100vh;
         padding:60px 20px;
+        box-sizing:border-box;
+    
         background:
         linear-gradient(
             rgba(255,245,240,0.75),
             rgba(255,245,240,0.75)
         ),
         url("images/Background.png");
+    
         background-size:cover;
-        background-position:center;
+        background-position:center top;
+        background-repeat:no-repeat;
+        background-attachment:scroll;
+    
         color:#4A2C2A;
         text-align:center;
     }
@@ -190,8 +196,7 @@ body.lock {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    animation: fadeMasuk 2s;
-    animation: buka 2s;
+    animation: fadeMasuk 2s, buka 2s;
 }
 
 @keyframes fadeMasuk {
@@ -708,23 +713,30 @@ body.lock {
     #kad {
             background-attachment: scroll;
             padding:40px 15px;
+        
+            background-image:
+            linear-gradient(
+                rgba(255,245,240,0.75),
+                rgba(255,245,240,0.75)
+            ),
+            url("images/Background-Mobile.png");
+        
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
         }
-
         #kad h1 {
             font-size: 30px;
         }
-
         #kad h2 {
             font-size: 24px;
             line-height: 1.6;
         }
-
         #kad .ucapan {
             font-size: 28px;
             white-space: normal;
             word-break: keep-all;
         }
-
         #kad p {
             font-size: 18px;
             line-height: 1.8;
