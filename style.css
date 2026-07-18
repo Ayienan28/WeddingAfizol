@@ -5,6 +5,9 @@
     color: #444;
     margin: 0;
 }*/
+html, body {
+    background:#fff7f2;
+}
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -71,17 +74,18 @@ p {
 }*/
 #kad {
         min-height:100vh;
+        width:100%;
         padding:60px 20px;
         box-sizing:border-box;
     
         background:
         linear-gradient(
-            rgba(255,245,240,0.75),
-            rgba(255,245,240,0.75)
+            rgba(255,245,240,0.55),
+            rgba(255,245,240,0.55)
         ),
         url("images/Background.png");
     
-        background-size:cover;
+        background-size:100% auto;
         background-position:center top;
         background-repeat:no-repeat;
         background-attachment:scroll;
@@ -721,7 +725,7 @@ body.lock {
             ),
             url("images/Background-Mobile.png");
         
-            background-size:cover;
+            background-size:100% auto;
             background-position:center;
             background-repeat:no-repeat;
         }
