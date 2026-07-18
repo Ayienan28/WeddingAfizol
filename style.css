@@ -70,12 +70,19 @@ p {
     color: #555;
 }*/
 #kad {
-    min-height: 100vh;
-    padding: 60px 20px;
-    background: linear-gradient( 135deg, #fff7f2, #fce4ec );
-    color: #4A2C2A;
-    text-align: center;
-}
+        min-height:100vh;
+        padding:60px 20px;
+        background:
+        linear-gradient(
+            rgba(255,245,240,0.75),
+            rgba(255,245,240,0.75)
+        ),
+        url("images/Background.png");
+        background-size:cover;
+        background-position:center;
+        color:#4A2C2A;
+        text-align:center;
+    }
 
     #kad h1 {
         font-family: 'Great Vibes',cursive;
@@ -699,8 +706,9 @@ body.lock {
 
     /* bahagian kad */
     #kad {
-        padding: 25px;
-    }
+            background-attachment: scroll;
+            padding:40px 15px;
+        }
 
         #kad h1 {
             font-size: 30px;
