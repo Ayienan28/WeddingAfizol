@@ -749,15 +749,24 @@ body.lock {
     .countdown h2 {
         font-size: 24px;
     }
-
+    .timer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        justify-items: center;
+        max-width: 240px;
+        margin: 0 auto;
+    }
+    .timer div {
+        width: 80px;
+        padding: 10px;
+    }
     .timer span {
         font-size: 34px;
     }
-
     .timer p {
         font-size: 15px;
     }
-
     /* button */
     button {
         width: 260px;
