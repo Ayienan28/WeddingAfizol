@@ -735,13 +735,13 @@ body.lock {
             font-size: 20px;
         }
         #kad h2 {
-            font-size: 18px;
+            font-size: 17px;
             line-height: 1.45;
             letter-spacing: 0.5px;
             margin: 8px 0;
         }
         #kad h2:not(.ucapan){
-            font-size:20px;
+            font-size:17px;
             line-height:1.4;
         }
         #kad .ucapan{
