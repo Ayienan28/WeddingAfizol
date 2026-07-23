@@ -749,6 +749,7 @@ body.lock {
             line-height:1.3;
             letter-spacing:0;
             white-space:normal;
+            font-weight:700;
         }
         .greeting{
             white-space: nowrap;
