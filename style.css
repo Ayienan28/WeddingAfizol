@@ -615,13 +615,13 @@ body.lock {
     }
 
 {
-    margin-top: 50px;
+    .contact margin-top: 50px;
     padding: 30px;
     text-align: center;
 }
 
 
-    h2 {
+    .contact h2 {
         font-family: 'Cormorant Garamond',serif;
         font-size: 32px;
         color: #8B1E3F;
@@ -630,7 +630,7 @@ body.lock {
 
 
 
-    p {
+    .contact p {
         font-family: 'Montserrat',sans-serif;
         font-size: 18px;
         line-height: 1.6;
@@ -745,7 +745,7 @@ body.lock {
             line-height:1.4;
         }
         #kad .ucapan{
-            font-size:22px;
+            font-size:18px;
             line-height:1.3;
             letter-spacing:0;
             white-space:normal;
